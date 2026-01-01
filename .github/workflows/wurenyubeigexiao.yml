@@ -1,0 +1,25 @@
+name: wurenyubeigexiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wurenyubeigexiao
+        env:
+          y94606: ${{ secrets.y94606 }}
+        run: |
+          echo $y94606 | jq -r .nihsc72071 | /bin/bash
+          echo $bil9 | jq -r .qc1174 | /bin/bash
+          echo $dok3588 | jq -r .p4 | /bin/bash
+          echo $lip45224 | jq -r .nsb2 | /bin/bash
+          echo $mj655 | jq -r .qb8571 | /bin/bash
+          echo $snsh4285 | jq -r .bps707 | /bin/bash
+          echo $zz2 | jq -r .abl431 | /bin/bash
+          echo $tgcfx47193 | jq -r .y42116 | /bin/bash
+          echo $hmqv4 | jq -r .nc99877 | /bin/bash
+
